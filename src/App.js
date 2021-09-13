@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route exact path="shoe-store" component={ProductListing}></Route>
+          <Route exact path="/" component={ProductListing}></Route>
           <Route
             exact
             path="/product/:productId"
