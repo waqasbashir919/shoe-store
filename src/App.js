@@ -12,7 +12,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Switch>
+        <ProductListing/>
+          <ProductDetails/>
+          <Cart/>
+        {/* <Switch>
           <Route exact path="/" component={ProductListing}></Route>
           <Route
             exact
@@ -25,7 +28,7 @@ function App() {
             component={Cart}
           ></Route>
           <Route>404 not found</Route>
-        </Switch>
+        </Switch> */}
       </BrowserRouter>
     </div>
   );
